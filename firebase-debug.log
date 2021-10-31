@@ -1,0 +1,17 @@
+[debug] [2021-10-31T06:33:36.623Z] ----------------------------------------------------------------------
+[debug] [2021-10-31T06:33:36.631Z] Command:       /usr/local/bin/firebase /Users/vikash/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase deploy
+[debug] [2021-10-31T06:33:36.632Z] CLI Version:   9.6.1
+[debug] [2021-10-31T06:33:36.632Z] Platform:      darwin
+[debug] [2021-10-31T06:33:36.632Z] Node Version:  v12.18.1
+[debug] [2021-10-31T06:33:36.659Z] Time:          Sun Oct 31 2021 12:03:36 GMT+0530 (India Standard Time)
+[debug] [2021-10-31T06:33:36.659Z] ----------------------------------------------------------------------
+[debug] [2021-10-31T06:33:36.660Z] 
+[debug] [2021-10-31T06:33:36.680Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-10-31T06:33:36.681Z] > authorizing via signed-in user
+[debug] [2021-10-31T06:33:36.681Z] [iam] checking project vikash-2806 for permissions ["datastore.indexes.create","datastore.indexes.delete","datastore.indexes.list","datastore.indexes.update","firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2021-10-31T06:33:36.691Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/vikash-2806:testIamPermissions  
+ {"permissions":["datastore.indexes.create","datastore.indexes.delete","datastore.indexes.list","datastore.indexes.update","firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2021-10-31T06:33:39.281Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 31 Oct 2021 06:33:39 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1173","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-10-31T06:33:39.283Z] > refreshing access token with scopes: []
+[debug] [2021-10-31T06:33:39.283Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
