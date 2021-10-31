@@ -28,4 +28,9 @@ main {
   color: #fff !important;
   cursor: none;
 }
+@media (max-width: 786px) {
+  html{
+    font-size:12px;
+  }
+}
 </style>

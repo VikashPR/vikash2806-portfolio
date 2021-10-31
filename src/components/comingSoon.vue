@@ -19,7 +19,7 @@ main{
 div{
   color: rgba(229, 34, 99, 0.952);
   font-family: Monaco, monospace;
-  font-size: 24px;
+  font-size: 1.8rem;
   width: 100%;
   text-align: center;
   position: absolute;
@@ -54,6 +54,12 @@ span {
     opacity: 1;
     left: -2px;
   }
+}
+ 
+/* Media querry */
+
+@media (max-width: 786px) {
+
 }
 
 </style>
