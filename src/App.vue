@@ -24,7 +24,7 @@ export default {
 main {
   height: 100vh;
   width: 100%;
-  background: rgb(22, 19, 19) !important;
+  background: rgb(8, 8, 8) !important;
   color: #fff !important;
   cursor: none;
 }
