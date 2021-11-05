@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <ComingSoon/>
+    <ComingSoon />
   </div>
 </template>
 
