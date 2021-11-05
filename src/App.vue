@@ -1,19 +1,6 @@
 <template>
-  <main>
-    <ComingSoon />
-  </main>
+  <router-view/>
 </template>
-
-<script>
-import ComingSoon from "./components/comingSoon.vue";
-
-export default {
-  name: "App",
-  components: {
-    ComingSoon,
-  },
-};
-</script>
 
 <style>
 * {
