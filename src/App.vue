@@ -39,6 +39,7 @@ main {
   border: 2px solid white;
   border-radius: 50%;
   position: absolute;
+  transform:translate(-50%,-50%);
 }
 @media (max-width: 786px) {
   html{
