@@ -1,20 +1,30 @@
 <template>
   <main>
-    <ComingSoon />
+    <!-- <div :v-model="mCursor"
+    :style="{top:Event.pageY + 'px',left:Event.pageX + 'px'}"
+    class="mCursor"></div> -->
+    <v-main>
+      <!-- <router-view  @mousemove="cursor"/> -->
+      <router-view/>
+    </v-main>
   </main>
 </template>
-
 <script>
-import ComingSoon from "./components/comingSoon.vue";
-
 export default {
-  name: "App",
-  components: {
-    ComingSoon,
-  },
-};
+  // NOTE Mouse event code commented
+  // data(){
+  //   return{
+  //       Event,
+  //   }
+  // },
+  //   methods:{
+  //      cursor(e){
+  //       this.Event = e;
+  //       return Event;
+  //      }
+  //   }
+}
 </script>
-
 <style>
 * {
   padding: 0;
@@ -24,10 +34,23 @@ export default {
 main {
   height: 100vh;
   width: 100%;
-  background: rgb(8, 8, 8) !important;
+  background: rgb(0, 0, 0) !important;
   color: #fff !important;
-  cursor: none;
 }
+::selection {
+  color: rgb(250, 36, 121);
+}
+/* .mCursor{
+  top: 50%;
+  left: 50%;
+  width: 3rem;
+  height: 3rem;
+  border: 2px solid white;
+  border-radius: 50%;
+  position: absolute;
+  transform:translate(-50%,-50%);
+  transition-duration: .2s
+} */
 @media (max-width: 786px) {
   html{
     font-size:12px;

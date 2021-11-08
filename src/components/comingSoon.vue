@@ -1,6 +1,6 @@
 <template>
   <main>
-    <div id="glitch">█  <spanm style="color:#FFF">█ █ █ █ █ █ █ █ █ </spanm>    10%
+    <div id="glitch">█  █  <spanm style="color:#FFF">█ █ █ █ █ █ █ █ █ </spanm>    20%
         <br>&gt; Vikash's portfolio  comming soon&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <br>&gt; Devolepment in Progress <span id="cursor" style="color:#00b0a3">█</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       </div>
@@ -17,7 +17,7 @@ main{
   user-select: none;
 }
 div{
-  color: rgba(229, 34, 99, 0.952);
+  color: rgb(250, 36, 121);
   font-family: Monaco, monospace;
   font-size: 1.8rem;
   width: 100%;
