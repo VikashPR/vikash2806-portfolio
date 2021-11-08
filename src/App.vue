@@ -1,25 +1,28 @@
 <template>
   <main>
-    <div :v-model="mCursor"
+    <!-- <div :v-model="mCursor"
     :style="{top:Event.pageY + 'px',left:Event.pageX + 'px'}"
-    class="mCursor"></div>
-    <router-view  @mousemove="cursor"/>
+    class="mCursor"></div> -->
+    <v-main>
+      <!-- <router-view  @mousemove="cursor"/> -->
+      <router-view/>
+    </v-main>
   </main>
 </template>
 <script>
 export default {
-  data(){
-    return{
-        Event,
-    }
-  },
-    methods:{
-       cursor(e){
-        //  this.mCursor.style.top = e.pageY +"px";
-        this.Event = e;
-        return Event;
-       }
-    }
+  // NOTE Mouse event code commented
+  // data(){
+  //   return{
+  //       Event,
+  //   }
+  // },
+  //   methods:{
+  //      cursor(e){
+  //       this.Event = e;
+  //       return Event;
+  //      }
+  //   }
 }
 </script>
 <style>
@@ -33,15 +36,19 @@ main {
   width: 100%;
   background: rgb(8, 8, 8) !important;
   color: #fff !important;
+  cursor: none;
 }
-.mCursor{
+/* .mCursor{
+  top: 50%;
+  left: 50%;
   width: 3rem;
   height: 3rem;
   border: 2px solid white;
   border-radius: 50%;
   position: absolute;
   transform:translate(-50%,-50%);
-}
+  transition-duration: .2s
+} */
 @media (max-width: 786px) {
   html{
     font-size:12px;
