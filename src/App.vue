@@ -34,9 +34,10 @@ export default {
 main {
   height: 100vh;
   width: 100%;
-  background: rgb(8, 8, 8) !important;
+  background: rgb(0, 0, 0) !important;
   color: #fff !important;
   cursor: none;
+  font-family: 'Montserrat', sans-serif;
 }
 /* .mCursor{
   top: 50%;
