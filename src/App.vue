@@ -36,8 +36,9 @@ main {
   width: 100%;
   background: rgb(0, 0, 0) !important;
   color: #fff !important;
-  cursor: none;
-  font-family: 'Montserrat', sans-serif;
+}
+::selection {
+  color: rgb(250, 36, 121);
 }
 /* .mCursor{
   top: 50%;
