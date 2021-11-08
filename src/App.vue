@@ -1,8 +1,10 @@
 <template>
-  <div :v-model="mCursor" 
-  :style="{top:Event.pageY + 'px',left:Event.pageX + 'px'}" 
-  class="mCursor"></div>
-  <router-view  @mousemove="cursor"/>
+  <main>
+    <div :v-model="mCursor"
+    :style="{top:Event.pageY + 'px',left:Event.pageX + 'px'}"
+    class="mCursor"></div>
+    <router-view  @mousemove="cursor"/>
+  </main>
 </template>
 <script>
 export default {
@@ -31,7 +33,6 @@ main {
   width: 100%;
   background: rgb(8, 8, 8) !important;
   color: #fff !important;
-  cursor: none;
 }
 .mCursor{
   width: 3rem;
