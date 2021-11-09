@@ -26,16 +26,21 @@ export default {
 }
 </script>
 <style>
+body{
+  width: 100% !important;
+  background: rgb(0, 0, 0) !important;
+  color: #fff !important;
+  margin: 0 auto;
+}
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif !important;
 }
 main {
   height: 100vh;
-  width: 100%;
-  background: rgb(0, 0, 0) !important;
-  color: #fff !important;
+  max-width: 1800px;
 }
 ::selection {
   color: rgb(250, 36, 121);

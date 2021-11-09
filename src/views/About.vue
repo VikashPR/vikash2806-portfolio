@@ -1,23 +1,24 @@
 <template>
 <main>
+  <div class="logo"><img src="@/assets/vikash-logo.svg" alt=""></div>
   <div class="sections-menu">
         <span class="menu-point" v-bind:class="{active: activeSection == index}" v-on:click="scrollToSection(index)"
           v-for="(offset, index) in offsets" v-bind:key="index">
         </span>
       </div>
-      <section class="fullpage blue">
+      <section class="fullpage">
          <landing-page/>
       </section>
-      <section class="fullpage black">
+      <section class="fullpage">
         <about-me-page/>
       </section>
-      <section class="fullpage black">
+      <section class="fullpage">
         <studies-page/>
       </section>
-      <section class="fullpage black">
+      <section class="fullpage">
        <skills-page/>
       </section>
-      <section class="fullpage black">
+      <section class="fullpage">
       <contact-me-page/>
       </section>
 </main>
@@ -151,8 +152,17 @@ export default {
 main {
   margin: 0;
   color: #FFF;
-  font-family: Helvetica, arial, sans-serif;
   overflow: hidden;
+}
+.logo {
+  width: 100px;
+  position: absolute;
+  top:50px;
+  left: 50px;
+}
+.logo img{
+  width: 100%;
+
 }
 h2 {
   position: fixed;
@@ -162,6 +172,7 @@ h2 {
   height: 100vh;
   width: 100%;
   display: flex;
+  position: relative;
   justify-content: center;
   align-items: center;
   flex-direction: column;
