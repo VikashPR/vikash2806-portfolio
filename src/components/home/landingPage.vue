@@ -31,4 +31,5 @@ width: 100%;
     color: rgb(250, 36, 121);
 }
 
+
 </style>

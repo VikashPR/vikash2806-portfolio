@@ -1,6 +1,8 @@
 <template>
   <main>
       <h1>Skills page Main</h1>
+      <span class="page-display">My Skills</span>
+
   </main>
 </template>
 

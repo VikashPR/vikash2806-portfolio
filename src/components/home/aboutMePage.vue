@@ -1,6 +1,7 @@
 <template>
   <main>
       <h1>AboutMe page Main</h1>
+      <span class="page-display">About Me</span>
   </main>
 </template>
 

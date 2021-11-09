@@ -1,6 +1,7 @@
 <template>
   <main>
       <h1>ContactMe page Main</h1>
+      <span class="page-display">Studies</span>
   </main>
 </template>
 
