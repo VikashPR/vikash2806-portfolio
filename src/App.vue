@@ -5,42 +5,51 @@
     class="mCursor"></div> -->
     <v-main>
       <!-- <router-view  @mousemove="cursor"/> -->
-      <router-view/>
+      <router-view />
     </v-main>
   </main>
 </template>
 <script>
-export default {
-  // NOTE Mouse event code commented
-  // data(){
-  //   return{
-  //       Event,
-  //   }
-  // },
-  //   methods:{
-  //      cursor(e){
-  //       this.Event = e;
-  //       return Event;
-  //      }
-  //   }
-}
+  export default {
+    // NOTE Mouse event code commented
+    // data(){
+    //   return{
+    //       Event,
+    //   }
+    // },
+    //   methods:{
+    //      cursor(e){
+    //       this.Event = e;
+    //       return Event;
+    //      }
+    //   }
+  }
 </script>
 <style>
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-main {
-  height: 100vh;
-  width: 100%;
-  background: rgb(0, 0, 0) !important;
-  color: #fff !important;
-}
-::selection {
-  color: rgb(250, 36, 121);
-}
-/* .mCursor{
+  body {
+    width: 100% !important;
+    background: rgb(0, 0, 0) !important;
+    color: #fff !important;
+    margin: 0 auto;
+  }
+
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif !important;
+  }
+
+  main {
+    height: 100vh;
+    max-width: 1800px;
+  }
+
+  ::selection {
+    color: rgb(250, 36, 121);
+  }
+
+  /* .mCursor{
   top: 50%;
   left: 50%;
   width: 3rem;
@@ -51,9 +60,22 @@ main {
   transform:translate(-50%,-50%);
   transition-duration: .2s
 } */
-@media (max-width: 786px) {
-  html{
-    font-size:12px;
+  /* Page Display Css */
+  .page-display {
+    position: absolute;
+    font-weight: 600;
+    opacity: 0.05;
+    font-size: 9rem;
+    left: 5%;
+    display: block;
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+    transform: rotate(180deg);
   }
-}
+
+  @media (max-width: 786px) {
+    html {
+      font-size: 12px;
+    }
+  }
 </style>
