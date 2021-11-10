@@ -1,11 +1,11 @@
 <template>
     <main class="main">
-        <div class="home-text">
+        <div data-aos="zoom-in" data-aos-duration="1000"  class="home-text">
             <h1 class="greet-text">🙏Vanakkam,</h1>
             <h1>I'am <strong>Vikash</strong></h1>
             <p class="design-text">Student / Web Developer</p>
         </div>
-        <div class="wrap">
+        <div data-aos="zoom-in" data-aos-duration="1000" class="wrap">
             <div class="blob" style="">
                 <img src="@/assets/vikash-min.jpeg" alt="vikash-landing page image">
             </div>
