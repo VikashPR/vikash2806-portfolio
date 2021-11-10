@@ -29,6 +29,7 @@
     color: #fff !important;
     margin: 0 auto;
     max-width: 1800px;
+    overflow: hidden;
   }
 
   * {
@@ -52,6 +53,7 @@
   transform:translate(-50%,-50%);
   transition-duration: .2s
 } */
+
   /* Page Display Css */
 
   .page-display {
@@ -66,9 +68,34 @@
     transform: rotate(180deg);
   }
 
-  @media (max-width: 786px) {
-    html {
-      font-size: 10px;
-    }
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  html{
+    font-size: 8px;
   }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    html{
+    font-size: 10px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    html{
+    font-size: 10px;
+  }
+} 
+@media only screen and (min-width: 992px) {
+  html{
+    font-size: 14px;
+  }
+} 
+@media only screen and (min-width: 992px) {
+  html{
+    font-size: 16px;
+  }
+}
 </style>
