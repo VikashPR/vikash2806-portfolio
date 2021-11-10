@@ -176,6 +176,7 @@ export default {
   background-color: rgb(250, 36, 121);
 }
 
+
 @media screen and (max-width: 1200px) {
   h1 {
     font-size: 2.5em;

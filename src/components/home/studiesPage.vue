@@ -1,7 +1,7 @@
 <template>
-  <main>
+  <main class="main">
       <h1>Studies page Main</h1>
-      <span class="page-display">Studies</span>
+        <div class="page-display"><h4 data-aos-duration="1000" data-aos="fade-left">My Educations</h4></div>
   </main>
 </template>
 
@@ -12,7 +12,8 @@ export default {
 </script>
 
 <style scoped>
-main{
+.main{
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
