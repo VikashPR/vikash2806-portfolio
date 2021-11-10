@@ -35,7 +35,7 @@
     font-weight: 500;
 }
 .home-text .greet-text{
-    color: yellow;
+    color: rgb(236, 236, 5);
 }
 .home-text h1 strong{
     color: rgb(250, 36, 121);
