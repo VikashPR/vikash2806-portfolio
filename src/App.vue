@@ -56,10 +56,10 @@
 
   /* Page Display Css */
 
-.page-display{
+.page-displayText{
   writing-mode: vertical-rl;
   position: absolute;
-  left: 0%;
+  left: 2%;
   line-height: 1;
   opacity:0.09 !important;
   user-select: none;

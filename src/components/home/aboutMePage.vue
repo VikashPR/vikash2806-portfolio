@@ -1,7 +1,7 @@
 <template>
   <main class="main">
       <h1 data-aos="zoom-in">AboutMe page Main</h1>
-        <div class="page-display"><h4 data-aos-duration="1000" data-aos="fade-left">About Me</h4></div>
+        <div class="page-displayText"><h4 data-aos-duration="1000" data-aos="fade-left">About Me</h4></div>
 
   </main>
 </template>

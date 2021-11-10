@@ -1,7 +1,7 @@
 <template>
   <main class="main">
       <h1>Studies page Main</h1>
-        <div class="page-display"><h4 data-aos-duration="1000" data-aos="fade-left">My Educations</h4></div>
+        <div class="page-displayText"><h4 data-aos-duration="1000" data-aos="fade-left">My Educations</h4></div>
   </main>
 </template>
 
