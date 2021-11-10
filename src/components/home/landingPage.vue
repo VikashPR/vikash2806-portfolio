@@ -19,6 +19,13 @@
 </script>
 
 <style scoped>
+.main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
     .wrap {
         display: flex;
         align-items: center;
@@ -33,18 +40,19 @@
         overflow: hidden;
         animation: morph 3s linear infinite;
         transition: all 0.4s ease;
-        opacity: 0.6;
         border: 4px solid rgb(250, 36, 121);
         box-shadow: -1px -1px 36px 10px rgba(250,36,121,0.51);
         -webkit-box-shadow: -1px -1px 36px 10px rgba(250,36,121,0.51);
         -moz-box-shadow: -1px -1px 36px 10px rgba(250,36,121,0.51);
     }
-    .circle:hover {
-        transform:scale(1.1);
+    .circle:hover img{
+        transform:scale(1.2);
         opacity: 1;
     }
 
     .circle img {
+        transition: all 0.4s ease;
+        opacity: 0.6;
         width: 100%;
     }
 
