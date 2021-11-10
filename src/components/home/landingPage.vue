@@ -6,7 +6,7 @@
             <p>Student, FrontEnd Developer</p>
         </div>
         <div class="wrap">
-            <div class="circle" style="">
+            <div class="blob" style="">
                 <img src="@/assets/vikash-min.jpeg" alt="vikash-landing page image">
             </div>
         </div>
@@ -32,7 +32,7 @@
         justify-content: center;
     }
 
-    .circle {
+    .blob {
         width: 450px;
         max-width:450px;
         min-width:200px;
@@ -45,12 +45,12 @@
         -webkit-box-shadow: -1px -1px 36px 10px rgba(250,36,121,0.51);
         -moz-box-shadow: -1px -1px 36px 10px rgba(250,36,121,0.51);
     }
-    .circle:hover img{
+    .blob:hover img{
         transform:scale(1.2);
         opacity: 1;
     }
 
-    .circle img {
+    .blob img {
         transition: all 0.4s ease;
         opacity: 0.6;
         width: 100%;
