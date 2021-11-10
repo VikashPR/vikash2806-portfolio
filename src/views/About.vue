@@ -1,6 +1,5 @@
 <template>
 <main>
-  <div class="logo"><img src="@/assets/vikash-logo.svg" alt=""></div>
   <div class="sections-menu">
         <span class="menu-point" v-bind:class="{active: activeSection == index}" v-on:click="scrollToSection(index)"
           v-for="(offset, index) in offsets" v-bind:key="index">
@@ -149,56 +148,9 @@ export default {
 }
 </script>
 <style scoped>
-main {
-  margin: 0;
-  color: #FFF;
-  overflow: hidden;
-}
-.logo {
-  width: 100px;
-  position: absolute;
-  top:50px;
-  left: 50px;
-}
-.logo img{
-  width: 100%;
-
-}
-h2 {
-  position: fixed;
-}
-
-.fullpage {
+.fullpage{
   height: 100vh;
-  width: 100%;
-  display: flex;
-  position: relative;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
 }
-
-h1 {
-  font-size: 6em;
-  margin: 0;
-  text-align: center;
-  padding: 0 1rem;
-}
-
-p {
-  font-size: 1em;
-}
-
-.fullpage a {
-  text-decoration: none;
-  font-weight: 600;
-  background: rgba(255, 255, 255, 0.3);
-  padding: 5px 10px;
-  color: #FFF;
-  margin-left: 5px;
-}
-
-
 .sections-menu {
   position: fixed;
   right: 2rem;

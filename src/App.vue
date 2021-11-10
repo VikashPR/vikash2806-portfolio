@@ -3,10 +3,8 @@
     <!-- <div :v-model="mCursor"
     :style="{top:Event.pageY + 'px',left:Event.pageX + 'px'}"
     class="mCursor"></div> -->
-    <v-main>
       <!-- <router-view  @mousemove="cursor"/> -->
       <router-view />
-    </v-main>
   </main>
 </template>
 <script>
@@ -27,10 +25,10 @@
 </script>
 <style>
   body {
-    width: 100% !important;
     background: rgb(0, 0, 0) !important;
     color: #fff !important;
     margin: 0 auto;
+    max-width: 1800px;
   }
 
   * {
@@ -39,12 +37,6 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif !important;
   }
-
-  main {
-    height: 100vh;
-    max-width: 1800px;
-  }
-
   ::selection {
     color: rgb(250, 36, 121);
   }
@@ -61,6 +53,7 @@
   transition-duration: .2s
 } */
   /* Page Display Css */
+
   .page-display {
     position: absolute;
     font-weight: 600;
@@ -75,7 +68,7 @@
 
   @media (max-width: 786px) {
     html {
-      font-size: 12px;
+      font-size: 10px;
     }
   }
 </style>
