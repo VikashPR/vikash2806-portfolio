@@ -10,20 +10,6 @@
                 <img src="@/assets/vikash-min.jpeg" alt="vikash-landing page image">
             </div>
         </div>
-        <div class="parallax-bg" >
-            <img  src="@/assets/bg-imgs/1.png" alt="">
-            <img  src="@/assets/bg-imgs/2.png" alt="">
-            <img  src="@/assets/bg-imgs/3.png" alt="">
-            <img  src="@/assets/bg-imgs/4.png" alt="">
-            <img  src="@/assets/bg-imgs/5.png" alt="">
-            <img  src="@/assets/bg-imgs/6.png" alt="">
-            <img  src="@/assets/bg-imgs/7.png" alt="">
-            <img  src="@/assets/bg-imgs/8.png" alt="">
-            <img  src="@/assets/bg-imgs/9.png" alt="">
-            <img  src="@/assets/bg-imgs/10.png" alt="">
-            <img  src="@/assets/bg-imgs/11.png" alt="">
-            <img  src="@/assets/bg-imgs/12.png" alt="">
-        </div>
     </main>
 </template>
 <script>
@@ -41,26 +27,7 @@
         justify-content: space-evenly;
     }
 
-    /* Parallax bg */
-    .parallax-bg {
-        position: absolute;
-        height: 100vh;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        z-index: -1;
-        opacity: 1;
-    }
 
-    .parallax-bg img {
-        position: absolute;
-        top: 0;
-        left: 0;
-        object-fit: cover;
-        height: 100%;
-        width: 100%;
-    }
 
     /* NOTE Text */
     .home-text {
