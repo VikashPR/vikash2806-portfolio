@@ -75,12 +75,14 @@
 
     .blob:hover img {
         transform: scale(1.2);
-        opacity: 1;
+        -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+        filter: grayscale(0%);
     }
 
     .blob img {
         transition: all 0.4s ease;
-        opacity: 0.9;
+        -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+        filter: grayscale(100%);
         width: 100%;
     }
 
@@ -127,7 +129,8 @@
         }
 
         .blob img {
-            opacity: 1;
+            -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+            filter: grayscale(0%);
             transform: scale(1.1);
         }
     }
