@@ -4,7 +4,7 @@
     :style="{top:Event.pageY + 'px',left:Event.pageX + 'px'}"
     class="mCursor"></div> -->
       <!-- <router-view  @mousemove="cursor"/> -->
-      <router-view />
+      <router-view/>
   </main>
 </template>
 <script>
