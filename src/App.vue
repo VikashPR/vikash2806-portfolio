@@ -4,7 +4,7 @@
     :style="{top:Event.pageY + 'px',left:Event.pageX + 'px'}"
     class="mCursor"></div> -->
       <!-- <router-view  @mousemove="cursor"/> -->
-      <router-view />
+      <router-view/>
   </main>
 </template>
 <script>
@@ -56,17 +56,17 @@
 
   /* Page Display Css */
 
-  .page-display {
-    position: absolute;
-    font-weight: 600;
-    opacity: 0.05;
-    font-size: 9rem;
-    left: 5%;
-    display: block;
-    writing-mode: vertical-lr;
-    text-orientation: mixed;
-    transform: rotate(180deg);
-  }
+.page-displayText{
+  writing-mode: vertical-rl;
+  position: absolute;
+  left: 2%;
+  line-height: 1;
+  opacity:0.09 !important;
+  user-select: none;
+  font-size: 6rem !important;
+  font-weight: 800;
+  transform:rotate(180deg) !important;
+}
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {

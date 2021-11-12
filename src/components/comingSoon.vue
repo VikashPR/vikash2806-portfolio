@@ -18,8 +18,8 @@ main{
 }
 div{
   color: rgb(250, 36, 121);
-  font-family: Monaco, monospace;
-  font-size: 1.8rem;
+  font-family: Monaco, monospace !important;
+  font-size: 1.5rem ;
   width: 100%;
   text-align: center;
   position: absolute;
