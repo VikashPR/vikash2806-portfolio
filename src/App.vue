@@ -67,6 +67,9 @@
   font-weight: 800;
   transform:rotate(180deg) !important;
 }
+.page-displayText .underscore{
+  opacity:0;
+}
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {

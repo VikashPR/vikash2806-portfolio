@@ -176,15 +176,6 @@ export default {
   background-color: rgb(250, 36, 121);
 }
 
-/* Parallax bg */
-.parallax-bg{
-  position: absolute;
-  height: 100vh;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
 @media screen and (max-width: 1200px) {
   h1 {

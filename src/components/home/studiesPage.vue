@@ -1,7 +1,7 @@
 <template>
   <main class="main">
       <h1>Studies page Main</h1>
-        <div class="page-displayText"><h4 data-aos-duration="1000" data-aos="fade-left">Educations</h4></div>
+        <div class="page-displayText"><h4 data-aos-duration="1000" data-aos="fade-left">What<span class="underscore">_</span>I<span class="underscore">_</span>Did</h4></div>
   </main>
 </template>
 
@@ -13,7 +13,6 @@ export default {
 
 <style scoped>
 .main{
-    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
