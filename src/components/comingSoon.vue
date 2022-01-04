@@ -1,6 +1,6 @@
 <template>
   <main>
-    <div id="glitch">█  █  <spanm style="color:#FFF">█ █ █ █ █ █ █ █ █ </spanm>    20%
+    <div id="glitch">█  █  <spanm style="color:#FFF">█ █ █ █ █ █ █ █ █ </spanm>    60%
         <br>&gt; Vikash's portfolio  comming soon&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <br>&gt; Devolepment in Progress <span id="cursor" style="color:#00b0a3">█</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       </div>
